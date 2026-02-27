@@ -2,7 +2,7 @@ import axios from "axios"
 
 const api = axios.create({
     // baseURL: "http://localhost:5000/api"
-    baseURL: "https://foodie-hub-backend-4sgy.onrender.com/api"
+    baseURL: "https://foodiieehub.netlify.app/api"
 })
 
 //attach jwt taken automatically to every request
